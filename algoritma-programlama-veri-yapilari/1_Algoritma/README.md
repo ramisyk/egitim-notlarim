@@ -1,6 +1,6 @@
 # 1 - Algoritma
 
-# Algoritma Nedir?
+## Algoritma Nedir?
 
 Problem çözümünde takip edilmesi gereken yolların tamamı. Kullanılacak komut dizisi.
 
@@ -8,7 +8,7 @@ Algoritma, çözüm için her durumda kararsız kalmadan en kısa yoldan, en az 
 
 Algoritma tasarlamak için problemi iyi anlamalı sade bir biçimde ifade edilebilmelidir.
 
-# Algoritmaların Özellikleri
+## Algoritmaların Özellikleri
 
 - Algoritmaların başlangıç ve bitiş noktası olmak zorundadır. Algoritmalar için sonlu adımlar kümesinden oluştuğunu söyleyebiliriz.
 - Algoritma tasarımı yapılırken sade ve anlaşılır bir biçim kullanılmalıdır, inceleyenlerin anlayacağı şekilde olmalıdır bu nedenle teknik söylemlerden mümkün olduğunca arındırılmış olmalıdır.
@@ -17,7 +17,7 @@ Algoritma tasarlamak için problemi iyi anlamalı sade bir biçimde ifade edileb
 - Algoritmanın verimli olması için kullanılacak donanım kaynakları dikkate alınmalı, belirlenen alan ve zaman içerisinde problemin çözümü hazırlanmalıdır.
 - Başlangıç koşullarının ve giriş değerlerinin belirtilmesi algoritma verimini arttırır.
 
-# Algoritmaların Matematikteki Yeri
+## Algoritmaların Matematikteki Yeri
 
 - Algoritmalar aritmetik ve mantıksal işlemler içerebilirler.
 - Algoritmalar, matematiksel olarak prosedür ya da fonksiyon olarak düşünülebilir.
@@ -27,11 +27,11 @@ Algoritma tasarlamak için problemi iyi anlamalı sade bir biçimde ifade edileb
 - İnternet kullanımının artması ile yönetim ve karmaşıklık artmıştır. Kişilere özel içerik üretimi için matematiksel modellerin kullanılması gerekmektedir.
 - Fonksiyon bir çıktı döndürmelidir; prosedür ise değer döndürmüyordur (void).
 
-# Akış Şemaları
+## Akış Şemaları
 
 ![Akis](https://github.com/ramisyk/egitim-notlarim/blob/master/algoritma-programlama-veri-yapilari/1_Algoritma/kaynak/Akis1.png)
 
-# Sözde Kod
+## Sözde Kod
 
 Yapılandırılmış bir metin şeklindedir, bir program ya da akış şeması değildir. Algoritmanın okunurluluğunu artıırmak ve algoritma analizini kolaylaştırmak için kullanılır.
 
@@ -44,7 +44,7 @@ Yapılandırılmış bir metin şeklindedir, bir program ya da akış şeması d
 4.   *i* ekrana yaz
 5. **end while**
 
-# Algoritmanın Morfolojisi
+## Algoritmanın Morfolojisi
 
 - **Değişken:** Bilgisayar hafızasında değer depolamak ve kullanmak için ayrılan alanı belirten yapılar.
 - **Veri türü:** Tarih, sayı, metin gibi verilerin hangi şekilde saklanılması gerektiğini belirtir. Veri türlerinin işlemleri kendine has olduğundan doğru veri tipini seçmek işlemleri kolaylaştırır.
@@ -58,15 +58,15 @@ Yapılandırılmış bir metin şeklindedir, bir program ya da akış şeması d
 - Sonuç garantisi vardır.
 - Fonksiyonlar, özel bir alana değil istenilen formdaki tüm değerler için kullanılmalıdır (genellilik).
 
-# Algoritma Türleri
+## Algoritma Türleri
 
 
-## Direkt Algoritmalar
+### Direkt Algoritmalar
 
 - Belirli koşullarda kendini tekrar eden kod bloklarına **iterasyon** denir. Direkt algortimalarda iterasyon durumu söz konusu değildir.
 **Örnek:** İkinci dereceden bir denklemin köklerini bulmak için direkt algoritmalardan faydalanarak delta değerini de denklemin köklerini iterasyona gerek duymaksızın bulabiliriz.
 
-## Ardışık Algoritmalar
+### Ardışık Algoritmalar
 
 - Döngülerin ve recursive yapıların kullanıldığı yapılarda çözüme ulaşmak için algoritma iterasyon gerçekleştirmek durumunda kalır ve bu algoritmalar ardışık algoritma olarak adlandırılır.
 **Örnek:** Faktoriyel hesaplamak için sürekli çarpma işlemi gerçekleştirmek. 5! = 5 x 4!, 5! = 5 x (4 x 3!) gibi.
