@@ -29,7 +29,7 @@ Algoritma tasarlamak için problemi iyi anlamalı sade bir biçimde ifade edileb
 
 # Akış Şemaları
 
-![Akis](https://github.com/ramisyk/deneme/blob/main/1_Algoritma/resimler/Akis1.png?raw=true)
+![Akis](https://github.com/ramisyk/egitim-notlarim/blob/master/algoritma-programlama-veri-yapilari/1_Algoritma/kaynak/Akis1.png)
 
 # Sözde Kod
 
