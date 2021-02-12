@@ -23,4 +23,4 @@ Kod ortak ara dil olarak derlenir ve dll ya da exe olarak saklanır.
 
 Uygulama çalıştığında, CLR derlemeyi alır bilgisayarın mimarisine uygun makine koduna dönüştürmek için JIT kullanır.
 
-C# ile yazılmış, diziye eleman ekleme, dizideki elemanları toplama ve ortalama bulma gibi örnekleri görmek için [btk-programlama-ornekler](https://github.com/ramisyk/BTK-algoritma-programlama-veri-yapilarina-giris/tree/main/btk-programlama-ornekler) dosyasına bakabilirsiniz.
+C# ile yazılmış, diziye eleman ekleme, dizideki elemanları toplama ve ortalama bulma gibi örnekleri görmek için [btk-programlama-ornekler](https://github.com/ramisyk/egitim-notlarim/tree/master/algoritma-programlama-veri-yapilari/btk-programlama-ornekler) dosyasına bakabilirsiniz.
