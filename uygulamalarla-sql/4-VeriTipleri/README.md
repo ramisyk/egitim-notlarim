@@ -12,7 +12,7 @@ Veri tabanı oluşturulurken, veri tiplerini kullanılacak veriye uygun olarak b
 | bit         | 0                                  | 1                                  | <=8 1 Byte|
 
 ## Ondalıklı Sayılar
-![ondalikliSayilar](https://github.com/ramisyk/uygulamalarla-sql/blob/master/4-VeriTipleri/kaynak/ondalikSayilar.png "Ondalıklı Sayılar Tablosu")
+![ondalikliSayilar](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/4-VeriTipleri/kaynak/ondalikSayilar.png "Ondalıklı Sayılar Tablosu")
 
 ## Metin Veri Tipleri
 - char(50)
@@ -41,7 +41,7 @@ varchar(MAX) => 2 gb ye kadar veri tutabilir.
 text => eski SQL sürümlerinde / artık kullanılmamaktadır uyumluluk için bulunmaktadır.
 
 ## Tarih ve Saat Veri Tipleri
-![tarihSaat](https://github.com/ramisyk/uygulamalarla-sql/blob/master/4-VeriTipleri/kaynak/tarihSaat.png "Tarih ve Saat Veri Tipleri Tablosu")
+![tarihSaat](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/4-VeriTipleri/kaynak/tarihSaat.png "Tarih ve Saat Veri Tipleri Tablosu")
 - date: sadece tarih
 - datetime: tarih ve saat
 - datetime2: milisaniye hassasiyeti
@@ -49,8 +49,8 @@ text => eski SQL sürümlerinde / artık kullanılmamaktadır uyumluluk için bu
 - time: sadece saat milisaniyeden sonra 4 digit
 
 ## Diğer Veri Tipleri
-![diger1](https://github.com/ramisyk/uygulamalarla-sql/blob/master/4-VeriTipleri/kaynak/diger1.png "Diğer Veri Tipleri Tablosu")
-![diger2](https://github.com/ramisyk/uygulamalarla-sql/blob/master/4-VeriTipleri/kaynak/diger2.png "Diğer Veri Tipleri Tablosu")
+![diger1](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/4-VeriTipleri/kaynak/diger1.png "Diğer Veri Tipleri Tablosu")
+![diger2](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/4-VeriTipleri/kaynak/diger2.png "Diğer Veri Tipleri Tablosu")
 - image: eski SQL versiyonlarında resim dosyaları için kullanılır
 - binary: doğrudan okunamaz çevirici gerektirir.
 - varbinary(MAX): dosyanın kendisi veritabanında saklanıyorsa kullanılır
