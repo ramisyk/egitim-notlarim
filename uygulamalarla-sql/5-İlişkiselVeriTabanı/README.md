@@ -7,7 +7,7 @@ Birden fazla tablonun bir arada kullanılması ile oluşur. Temel amaç tekrar e
 
 Foreign key belirtilirken design table bölümünde add relationships seçeneğinden hangi alanların bağlanılacağı belirtilir.
 
-![iliskiselVeriTabanı](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/5-%C4%B0li%C5%9FkiselVeriTaban%C4%B1/kaynak/city-country-relationship.png "İlişki Ekleme")
+![iliskiselVeriTabanı](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/5-%C4%B0li%C5%9FkiselVeriTaban%C4%B1/kaynak/city-country-relationship.png "İlişki Ekleme")
 
 Tablolar arasında ilişki yapıldığında örn;
 country tablosunun id değeri ile city tablosunun countryId değeri arasında bağlantı kurduğumuzda: 

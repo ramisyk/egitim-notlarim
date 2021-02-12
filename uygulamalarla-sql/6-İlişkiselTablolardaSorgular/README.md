@@ -8,7 +8,7 @@ Countries, Cities, Towns, Districts, Address, Users tabloları hazırlanmış ve
 SELECT * FROM USERS WHERE ID = 1 
 SELECT * FROM ADDRESS WHERE USERID = 1
 `
-![İkiTablo](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/1_IkiTablo.png "Aynı ID'de İki Farklı Tablo Sonucu")
+![İkiTablo](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/1_IkiTablo.png "Aynı ID'de İki Farklı Tablo Sonucu")
 Yukarıdaki sonucu tek tabloda (USERID = 1 iken kullanıcı bilgileri ve addres i gösteren tablo) aşağıdaki şekilde oluşturulur:
 `
 SELECT USERS.*, ADDRESS.ADDRESSTEXT FROM
@@ -16,7 +16,7 @@ USERS, ADDRESS
 WHERE USERS.ID=ADDRESS.USERID
 AND USERS.ID=1
 `
-![İkiVeriTekTablo](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/2_IkiVeriTekTablo.png "İki Farklı Tablodan Getirilen Veriler")
+![İkiVeriTekTablo](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/2_IkiVeriTekTablo.png "İki Farklı Tablodan Getirilen Veriler")
 
 ## Alias Kullanımı
 `
@@ -64,7 +64,7 @@ WHERE U.ID = A.USERID AND
 	  C.ID = CT.COUNTRYID
       AND U.ID=1
 `
-![IkidenFazlaTablo](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/3_IkidenFazlaTablo.png "İkiden Fazla Tablo Kullanımı")
+![IkidenFazlaTablo](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/3_IkidenFazlaTablo.png "İkiden Fazla Tablo Kullanımı")
 ## İlişkisel Tablolarda Aggregate Fonksiyonlar
 **Kişilerin adres sayısı**
 `
@@ -78,7 +78,7 @@ T.ID = A.TOWNID AND
 D.ID = A.DISTRICTID
 GROUP BY U.NAMESURNAME
 `
-![Aggregate](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/4_Aggregate.png "İsme göre adres sayısının görüntülenmesi")
+![Aggregate](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/4_Aggregate.png "İsme göre adres sayısının görüntülenmesi")
 
 ## Join İşlemleri
 `
@@ -100,7 +100,7 @@ JOIN TOWNS T ON T.ID = A.TOWNID
 JOIN DISTRICTS D ON D.ID = A.DISTRICTID
 `
 
-![Join](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/5_Join.png "Join Sorugu Sonucu")
+![Join](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/5_Join.png "Join Sorugu Sonucu")
 
 Join fonksiyonu ile birleştirilecek tablo primary key ve foreign key ilişkisi göz önünde bulundurularak eklenir. Birleşme koşulu ON anahtar kelimesi ile gösterilir.
 
@@ -116,28 +116,28 @@ JOIN CITIES CT ON CT.ID = A.CITYID
 GROUP BY CT.CITY
 `
 
-![JoinAggregate](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/6_JoinAggregate.png "Join ile Aggregate")
+![JoinAggregate](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/6_JoinAggregate.png "Join ile Aggregate")
 
 ### Inner Join
 Küme kesişimi gibi çalışır. İki tabloda ortak olan kayıtları getirir. Yalnızca join kullanılması inner join kullanımıdır.
 
-![InnerJoin](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/7_InnerJoin.png "Inner Join Tablo Örneği")
+![InnerJoin](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/7_InnerJoin.png "Inner Join Tablo Örneği")
 
 ### Left (Outer) Join
 Inner join gibi kesişimler tek sütun haline gelir ancak, sol tablo için sağ tabloda veri olmasa daki sol tablonun bütün elemanları join tablosunda bulunur karşılığı boş bırakılır.
 Aşağıdaki örnekte Alper'e ait bir adres bilgisi olmamasına rağmen join tablomuzda bulunmaktadır.
 
-![LeftJoin](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/8_LeftJoin.png "Left Join Tablo Örneği")
+![LeftJoin](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/8_LeftJoin.png "Left Join Tablo Örneği")
 
 ### Right (Outer) Join
 Left Join in tam tersidir. Sağdaki tablo referans alınarak doldurulur. Sağdaki tabloda bulunup soldaki tabloda da ortak olan veriler ortak şekilde eklenirken sağda olmasına rağmen solda yoksa o kolonlar boş bırakılarak sağ tablodan ekleme yapılmaya devam edilir. Solda olduğu halde sağ tabloda bir referansı yoksa join tabloısuna eklenmez.
 
-![RightJoin](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/9_RightJoin.png "Right Join Tablo Örneği")
+![RightJoin](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/9_RightJoin.png "Right Join Tablo Örneği")
 
 ### Full Join
 İki tablodaki verilerin tümünün join tablosuna eklenmesidir. Ortak veriler ortak şekilde gelirken, ortak olamayan verilerin karışları boş bırakılarak tabloya eklenir.
 
-![FullJoin](https://github.com/ramisyk/egitim-notlarim/uygulamalarla-sql/blob/master/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/10_FullJoinTable.png "Full Join Tablo Örneği")
+![FullJoin](https://github.com/ramisyk/egitim-notlarim/blob/master/uygulamalarla-sql/6-%C4%B0li%C5%9FkiselTablolardaSorgular/kaynak/10_FullJoinTable.png "Full Join Tablo Örneği")
 
 Tabloların herhangibirinde karşılığı olmayan verilerin de join tablosunda görünebilmesi ilk örnekler yerine **join kullanımının avantajıdır.** 
 
