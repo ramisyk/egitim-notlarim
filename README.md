@@ -15,3 +15,5 @@ Eğitim Notlarım reposu BTK Akademi, Udemy vb. platformlarda aldığım eğitim
 
 ## 2. Devam Eden Eğitimler:
 - **[Algoritma, Programlama ve Veri Yapılarına Giriş:](https://github.com/ramisyk/egitim-notlarim/tree/master/algoritma-programlama-veri-yapilari)**
+
+- **[Büyük Veriye Giriş:]()**
