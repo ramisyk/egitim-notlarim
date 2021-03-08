@@ -100,3 +100,13 @@ Tip dönüşümü için de metni sütunlara çevir kullanılabilir. ay/gün/yıl
 
 metni parçalama, büyük harfe çevirme gibi seçenekler için ilk örneği yazıp hızlı doldurduğumuzda otomatik olarak işlemi gerçekleştirecektir. 
 
+## Arama ve Başvuru
+Düşey ara : farklı tablolardan verileri karşılaştırarak, alınmak istenen veriyi getirir.
+Aynı ya da farklı sayfa ya da kitaplarda kullanılabilir.
+İki tabloya ihtiyaç vardır : yerleştirilmek istenilen yer, verinin alınacağı yer.
+Aranan değer, aranan yer, alınmak istenilen veri kaçıncı sırada...
+
+- Veriyi yerleştireceğin tablodan seçilir
+- Aranacak yer taranır (ortak alan başta kalmalı)
+- kaçıncı sütunda kaldığı yer olarak verilir
+- aralık bak 1/0 => tam eşleşme = 0
