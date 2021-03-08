@@ -59,3 +59,44 @@ Birden fazla sütunda sıralama yapmak için sırala seçeneğine tıklayıp se�
 ## Alt toplam
 
 Bölgelere göre toplam satışı aramak için, bölgeleri sıraladıktan sonra toplam için alt toplam istenir.
+
+## İç içe eğer
+EĞER(A > B; "..."; EĞER(A = B; "..."; "..."))
+
+## Koşullu biçimlendirme
+Giriş sekmesindeki Koşullu Biçimlendirme kullanılır. 
+Önce alan seçilir. Büyükse ya da küçükse renklendir gibi örnekler için hücre vurgulama kuralları kullanılır.
+İlk 10 ya da son 10 öğe, toplam öğelerin ilk yüzde 10u son yüzde 10u gibi seçenekler uygulanabilir.
+
+## Koşullu hesaplama
+Belirli kriterlere uygun hesaplamalar yapılacağı zaman kullanılır. 
+ETOPLA : Kritere uyduğu durumda topla (şehri Ankara olanların gideri), 
+EĞERORTALAMA : Asus marka ürünlerin satış ortalaması, 
+EĞERSAY : Asus marka ürünlerin sayısı 
+=> case insensitive dir
+Kriteri verinin olduğu hücreden referans göstermek ileride hücre sıralaması değiştiğinde sorunlara yol açabilir.
+
+## Yinelenenleri Silme
+Veri sekmesinde veri araçlarında yinelenenleri kaldır seçeneğinden sadece birer örnek kalacak şekilde düzenler.
+
+## Çok kriterli fonksiyonlar
+Bursa şehrindeki Asus ürünlerinin adet toplamını hesapla gibi sorunlar için =>
+
+ÇOKETOPLA, ÇOKEĞERSAY, ÇOKEĞERORTALAMA fonksiyonları kullanılır.
+
+## Metin fonksiyonları
+Veri => Metni sütunlara dönüştür : Belirtilen özelliğe göre yan sütuna taşır (boşluk gördükçe işlemi yap gibi) 
+Formüller => Metin => Soldan fonksiyonu : Metnin solundan belirlenen sayıdan karakter alır (adının ilk iki harfi gibi) /Sağdan tam tersi
+Formüller => Metin => PARÇAAL : Kaçıncı karakterinden itibaren kaç karakter (substring gibi)
+Birleştir : iki metni birleştirir.
+
+## Veri düzenleme
+Metni ayırmak için bir atraç yok ise sabit genişlik seçeneğini kullanarak elle düzenlemeler yapabilmekteyiz. 3er karakter olarak ayır gibi
+
+CTRL + Shift + , : o günün tarihi
+CTRL + Shift + . : o anki saat
+
+Tip dönüşümü için de metni sütunlara çevir kullanılabilir. ay/gün/yıl şeklinde gelen tarihi sistem tarihine çevirmek için...
+
+metni parçalama, büyük harfe çevirme gibi seçenekler için ilk örneği yazıp hızlı doldurduğumuzda otomatik olarak işlemi gerçekleştirecektir. 
+
