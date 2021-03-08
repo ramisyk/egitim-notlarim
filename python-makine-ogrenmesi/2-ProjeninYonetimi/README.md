@@ -5,5 +5,3 @@ Makine öğrenmesi projesi hazırlık aşamasında kullanılacak verinin elde ed
 
 ## Kütüphanelerin Yüklenmesi
 Kütüphaneler "import" komutu ile eklenir. Genelde okunurluluğun arttırılması için en üste bırakılır.
-
-## Yeni başlık
