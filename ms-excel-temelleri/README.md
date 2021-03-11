@@ -110,3 +110,7 @@ Aranan değer, aranan yer, alınmak istenilen veri kaçıncı sırada...
 - Aranacak yer taranır (ortak alan başta kalmalı)
 - kaçıncı sütunda kaldığı yer olarak verilir
 - aralık bak 1/0 => tam eşleşme = 0
+
+- değer 1 olursa yaklaşık eşleşme anlamına gelir. Sayısal aralıklara bakılıyorsa, if else anlamına gelen bir yapıda arama yapar.
+- Arama yapılan tablo küçükten büyüğe sıralanması gerekmektedir. Tablo aralağında olmayan bir değer olduğunda #YOK gelebilir.
+Yoktan kaçınmak için EĞERHATA fonksiyonu çalıştırılabilir.
