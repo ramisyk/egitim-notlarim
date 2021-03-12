@@ -140,3 +140,5 @@ Kaçıncıdan aldığımız parametreyi gödererek seçilen sütundan o satırda
 - Ctrl + shift + , : bugünün tarihi
 - Ctrl + shift + . : şuanın tarihi
 - METNEÇEVİR(tarih, "gggg")
+
+- 
