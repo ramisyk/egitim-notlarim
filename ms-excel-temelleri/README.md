@@ -114,3 +114,29 @@ Aranan değer, aranan yer, alınmak istenilen veri kaçıncı sırada...
 - değer 1 olursa yaklaşık eşleşme anlamına gelir. Sayısal aralıklara bakılıyorsa, if else anlamına gelen bir yapıda arama yapar.
 - Arama yapılan tablo küçükten büyüğe sıralanması gerekmektedir. Tablo aralağında olmayan bir değer olduğunda #YOK gelebilir.
 Yoktan kaçınmak için EĞERHATA fonksiyonu çalıştırılabilir.
+
+- Hep ortak alanın sağından veri alabilir ve sürekli tarama yapmak zorunda olmamız performans kaybına neden olur.
+
+Düşey ara mantığı : yukarıdan aşağı aramaya başlar bulduğunda sağa doğru devam eder.
+
+## Kaçıncı Fonksiyonu
+- Aranan değer
+- Aranan dizi
+- eşleştir => 0 : birebir
+
+aradığım verinin olduğu sütunu taramam yeterli 
+=> sonuç olarak kaçıncı sırada olduğunu gösteir
+
+## İndis Fonksiyonu
+Kaçıncıdan aldığımız parametreyi gödererek seçilen sütundan o satırdaki işlemi gönderir
+
+## Tarihsel Fonksiyonlar
+- YIL(tarih) 
+- Ay(tarih)
+- GÜN(tarih)
+- HAFTANINGÜNÜ(tarih, hafta hangi günle başlıyor) : ptesi için 2 => o hafta içinde kaçıncı gün 
+- HAFTASAY(tarih) : o yıl içindeki kaçıncı haftada
+- BUGÜN()
+- Ctrl + shift + , : bugünün tarihi
+- Ctrl + shift + . : şuanın tarihi
+- METNEÇEVİR(tarih, "gggg")
