@@ -141,4 +141,33 @@ Kaçıncıdan aldığımız parametreyi gödererek seçilen sütundan o satırda
 - Ctrl + shift + . : şuanın tarihi
 - METNEÇEVİR(tarih, "gggg")
 
-- 
+## GRAFİKLER
+
+Sayısal verileri görsel hale getirmemizi sağlayan yapılar.
+
+### Sütun Grafiği
+Ekle sekmesinden geçilir.
+
+- Kategori listesi : x ekseni
+- Değerler listesi : y ekseni
+- Arka plan çizim alanıdır.
+
+Kaldırılan öğeler Grafik Öğesi Ekle seçeneğinde bulunurlar
+
+### Çizgi Grafiği
+Zamana bağlı değişimi göstermek için kullanırız. Tarihsel bir veriye ihtiyaç duyulur. Verinin tarihe bağlı dağılımını görmek için kullanırız.
+
+Trendin yönünü görebilmek için eğim çizgileri eklenebilir.
+
+### Pasta Grafiği
+Yüzdesel oran görmek için kullanılır.
+2d, 3d ya da halka olarak kullanılabilir.
+
+### Birleşik Grafik
+Sütun grafiklerinde değerlerden birinin çok küçük ya da çok büyük aralıkta olması durumunda üzerinde bir eksen daha seçilip üzerinde çizgi grafiği oluşturulur.
+
+### Harita Grafiği
+Ülke ve il bilgileri için harita üzerinden görselleştirme sağlar. İnternete bağlı olmak gerekmektedir.
+
+### Mini Grafik
+Farklı bilgiler için karşılaştırmak için kullanılabiliecek belirli veri aralığını belirli hücrelere grafik olarak yerleştirir.
