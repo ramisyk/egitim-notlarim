@@ -171,3 +171,16 @@ Sütun grafiklerinde değerlerden birinin çok küçük ya da çok büyük aral�
 
 ### Mini Grafik
 Farklı bilgiler için karşılaştırmak için kullanılabiliecek belirli veri aralığını belirli hücrelere grafik olarak yerleştirir.
+
+## Veri Doğrulama 
+Ortak alanda olan dosyanın farklı kişiler için kullanımını kısıtlayan yapı doğrulamadır.
+Hücrelere gelecek olan verileri belirlemek de veri doğruluğudur
+
+Korunma : 
+ - Dosyanın korunması : dosyayı şifreleme => dosya sekmesi - bilgi ekranı - çalışma kitabını koru (girişte şifre isteyecek)
+ - Sayfanın korunması : dosyayı açar inceler ancak veriler üzerinde değişiklik yapamaz -> çalışma kitabının üzerinden sayfayı koru / gözden geçir koruma sayfayı koru
+ - Hücrenin korunması : Kullanıcının bazı hücrelere veri girebileceği ancak bazılarında değişiklik yapmasını engelleyebilecek bir oluşturmak. -> seç hücreleri biçimlendir koruma 
+
+Doğrulama :
+ - Kullanıcının gireceği verinin şeklini kısıtlama
+ Aralığı seç veri doğrulamaya gir. İzin verilen değeri tanımla
