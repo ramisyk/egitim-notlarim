@@ -184,3 +184,11 @@ Korunma :
 Doğrulama :
  - Kullanıcının gireceği verinin şeklini kısıtlama
  Aralığı seç veri doğrulamaya gir. İzin verilen değeri tanımla
+ 
+ ## Pivot Tablo
+ Analizler için kullanılır, özet gösterimini kolaylaştırır.
+ Ekle Sekmesinden oluşturulur.
+ 
+ - Birleştirilmiş hücreler engel olur.
+ - Tablo başlıklarından herhangi birinin eksik olmaması gerekmektedir.
+ - Satır ve sütuna görülmek istenen öğeler eklenir. Analizler için de Değerler kısmı kullanılır.
