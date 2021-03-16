@@ -185,10 +185,29 @@ Doğrulama :
  - Kullanıcının gireceği verinin şeklini kısıtlama
  Aralığı seç veri doğrulamaya gir. İzin verilen değeri tanımla
  
- ## Pivot Tablo
+## Pivot Tablo
  Analizler için kullanılır, özet gösterimini kolaylaştırır.
  Ekle Sekmesinden oluşturulur.
  
  - Birleştirilmiş hücreler engel olur.
  - Tablo başlıklarından herhangi birinin eksik olmaması gerekmektedir.
  - Satır ve sütuna görülmek istenen öğeler eklenir. Analizler için de Değerler kısmı kullanılır.
+
+## Makrolar 
+Excel'in yazılım tarafı..
+Düzenli olarak yapılması gereken raporlar, sürekli hesap yapılıp güncellenen veriler makrolar ile yapılır.
+
+- Geliştirici sekmesinin açılması gerekmektedir. => Dosya - seçenekler - Şeridi özelleştir - Geliştirici
+- İki çeşittir : Kayıt makrosu - Kod makrosu
+- Visual Basic programlama dili ile işlemleri gerçekleştirir.
+- Bütün office uygulamalarında kullanılır : outlook üzerinden otomatik mailler, exceldeki tabloyu powerpoint sunumuna eklemek gibi 
+
+### Makro Kaydetmek
+- Makro adı ve yer belirtilir.
+- Açıklaması yazılabilir.
+- Kişisel makro Çalışma Kitabı : diğer excellerde de kullanılacak şekilde kaydolur.
+
+### Makro Koduna Müdahele Etmek
+- Komutlar visual basic ekranında modüllerin altında bulunur.
+- makro kaydedip kodu almak ya da kodu değiştirmek mümkündür.
+- Makrolu dosyaların uzantısı .xlsm dir, farklı kaydet(f12) diyerek kaydetmemiz gerekmektedir. => Makro içerebilen Excel kitabı
