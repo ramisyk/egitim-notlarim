@@ -213,3 +213,6 @@ Düzenli olarak yapılması gereken raporlar, sürekli hesap yapılıp güncelle
 - Makrolu dosyaların uzantısı .xlsm dir, farklı kaydet(f12) diyerek kaydetmemiz gerekmektedir. => Makro içerebilen Excel kitabı
 
 Geliştiricilerden ekle diyerek buton ekleyebilir ve butona basıldığında istenilen makroyu çalıştırabiliriz.
+
+### Göreceli başvuru
+Genelde verilerin üst üste yazılmasını engellemek için yapılan işlemlerdendir.
