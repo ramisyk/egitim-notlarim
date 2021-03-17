@@ -1,4 +1,5 @@
 # Microsoft Excel Temelleri
+Bu repo [BTK Akademide](https://www.btkakademi.gov.tr/portal/) bulunan Sayın [Kubilay Taştutar](https://www.linkedin.com/in/kubilay-tastutar-53a83898/)'ın anlatımı ile hazırlanan [Microsoft Excel Temelleri](https://www.btkakademi.gov.tr/portal/course/microsoft-excel-temelleri-13897#!/about) kursu takip edilirken alınan notları içermektedir.
 
 ## Giriş
 
