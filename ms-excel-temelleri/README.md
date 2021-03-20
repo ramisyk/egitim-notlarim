@@ -92,7 +92,7 @@ Formüller => Metin => PARÇAAL : Kaçıncı karakterinden itibaren kaç karakte
 Birleştir : iki metni birleştirir.
 
 ## Veri düzenleme
-Metni ayırmak için bir atraç yok ise sabit genişlik seçeneğini kullanarak elle düzenlemeler yapabilmekteyiz. 3er karakter olarak ayır gibi
+Metni ayırmak için bir ayraç yok ise sabit genişlik seçeneğini kullanarak elle düzenlemeler yapabilmekteyiz. 3er karakter olarak ayır gibi
 
 CTRL + Shift + , : o günün tarihi
 CTRL + Shift + . : o anki saat
