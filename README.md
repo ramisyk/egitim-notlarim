@@ -13,6 +13,8 @@ Eğitim Notlarım reposu BTK Akademi, Udemy vb. platformlarda aldığım eğitim
     7. **[Subquery:](https://github.com/ramisyk/egitim-notlarim/tree/master/uygulamalarla-sql/7-Subquery)** İç içe SELECT sorguları için kullanılır.
     8. **[String İşlemleri:](https://github.com/ramisyk/egitim-notlarim/tree/master/uygulamalarla-sql/8-StringIslemleri)** SQL ve T-SQL komutları ile yapılan metinsel işlemler.
 
+- **[Microsoft Excel Temelleri:](https://github.com/ramisyk/egitim-notlarim/tree/master/ms-excel-temelleri)**
+
 ## 2. Devam Eden Eğitimler:
 - **[Algoritma, Programlama ve Veri Yapılarına Giriş:](https://github.com/ramisyk/egitim-notlarim/tree/master/algoritma-programlama-veri-yapilari)**
 

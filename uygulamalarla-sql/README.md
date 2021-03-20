@@ -1,4 +1,4 @@
-# uygulamalarla-sql
+# Uygulamalarla SQL
 
 Bu repo [BTK Akademide](https://www.btkakademi.gov.tr/portal/) bulunan Sayın [Ömer Çolakoğlu](https://www.linkedin.com/in/omercolakoglu/?originalSubdomain=tr)'nun anlatımı ile hazırlanan [Uygulamalarla SQL Öğreniyorum](https://www.btkakademi.gov.tr/portal/course/uygulamalarla-sql-ogreniyorum-8249#!/about) kursu takip edilirken alınan notları içermektedir.
 
