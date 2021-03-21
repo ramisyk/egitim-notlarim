@@ -12,3 +12,14 @@ Forecasting (öngörü), geçmişe bakarak gelecek dönem ile ilgili tahminler, 
 Problem, verilerin dağılımda olduğu noktalardan geçen doğruyu bulmaktır.
 
 Amaç noktaların doğruya uzaklığından hata payını minimuma indirmek...
+
+## Basit Doğrusal Regresyon Model İnşası
+fit oluşan modeli inşa etmeye çalışır.
+
+X_train, Y_train üzerinden bilgiler alınarak model inşa edilir ve yapılan modele uygun olarak test verilerinin tahmini karşılaştırılır.
+
+## Uygulanması
+X_trainden Y_traini öğreniyor ve sonrasında X_test ten Y_testin tahmin edilmesi bekleniyor.
+
+## Görselleştirilmesi
+plot kullanılacak ve eksenler gönderilecek
